@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    
+    <h1> Construtora </h1>
+
+    <canvas id="canva" width="600" height="450">
+
+    </canvas>
+
+    <form>
+        <div>
+            <label for="horizontal">Espaço máximo horizontal (m)</label>
+            <input type="number" id="horizontal" value="100">
+        </div>
+        <div>
+            <label for="vertical">Espaço máximo vertical (m)</label>
+            <input type="number" id="vertical" value="50">
+        </div>
+        <div>
+            <label for="bancos">Fileiras de bancos</label>
+            <input type="number" id="bancos" value="1">
+        </div>
+        <div>
+            <label for="">Modelo de quadra</label>
+        </div>
+        <div>
+            <input type="radio" name="quadra" id="volei" value="volei">
+            <label for="volei">Volei</label><br>
+
+            <input type="radio" name="quadra" id="basquete" value="basquete">
+            <label for="basquete">Basquete</label><br>
+
+            <input type="radio" name="quadra" id="futebol" value="futebol">
+            <label for="futebol">Futebol</label><br>
+
+            <input type="radio" name="quadra" id="poli" value="poli" checked>
+            <label for="poli">Poliesportiva</label>
+        </div>
+        <div>
+            <input type="button" value="Atualizar dados">
+        </div>
+    </form>
+
+</body>
+</html>

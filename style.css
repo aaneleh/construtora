@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-top: 2em;
+    width: min(600px, 100vw);
+}
+form input[type='button']{
+    background: none;
+    outline: none;
+    border-radius: 0.5em;
+    border-width: 2px;
+    padding: 0.5em 0.5em;
+    align-self: center;
+    place-self: center;
+    margin-top: 1em;
+    cursor: pointer;
+}
+form div{
+    width: 100%;
+    display: grid;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+form div:has(input[type='button']){
+    justify-content: center;
+}
+
+canvas {
+    border: 1px solid black;
+}
