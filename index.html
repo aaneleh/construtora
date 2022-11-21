@@ -12,7 +12,7 @@
     
     <h1> Construtora </h1>
 
-    <canvas id="canva" width="600" height="450">
+    <canvas id="canvas" width="600" height="450">
 
     </canvas>
 
@@ -27,26 +27,26 @@
         </div>
         <div>
             <label for="bancos">Fileiras de bancos</label>
-            <input type="number" id="bancos" value="1">
+            <input type="number" id="fileiras" value="1">
         </div>
         <div>
             <label for="">Modelo de quadra</label>
         </div>
         <div>
-            <input type="radio" name="quadra" id="volei" value="volei">
+            <input type="radio" name="quadra" class="modelo_quadra" value="volei">
             <label for="volei">Volei</label><br>
 
-            <input type="radio" name="quadra" id="basquete" value="basquete">
+            <input type="radio" name="quadra" class="modelo_quadra" value="basquete">
             <label for="basquete">Basquete</label><br>
 
-            <input type="radio" name="quadra" id="futebol" value="futebol">
-            <label for="futebol">Futebol</label><br>
+            <input type="radio" name="quadra" class="modelo_quadra" value="futsal">
+            <label for="futsal">Futsal</label><br>
 
-            <input type="radio" name="quadra" id="poli" value="poli" checked>
+            <input type="radio" name="quadra" class="modelo_quadra" id="poli" value="poli" checked>
             <label for="poli">Poliesportiva</label>
         </div>
         <div>
-            <input type="button" value="Atualizar dados">
+            <input type="button" id="atualizar" value="Atualizar dados">
         </div>
     </form>
 
